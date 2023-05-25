@@ -1,0 +1,550 @@
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background: url('bg-hero-desktop.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: hsl(193, 100%, 96%);
+}
+
+#logo {
+  width: 180px;
+  height: 50px;
+  background: url('huddle logo.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+}
+
+header button {
+  width: 200px;
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 50px;
+  border: none;
+  background-color: white;
+  font-weight: 600;
+  box-shadow: 0px 0px 10px hsl(208, 11%, 70%);
+}
+
+header button:hover {
+  color: hsl(208, 11%, 55%);
+}
+
+h1, h2 {
+  font-family: "Poppins", sans-serif;
+}
+
+button {
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  line-height: 25px;
+}
+
+#one {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 80vh;
+  margin: auto;
+  background: url('bg-hero-desktop.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: hsl(193, 100%, 96%);
+}
+
+#one-text {
+  width: 40%;
+  margin-left: 50px;
+}
+
+#one-text h1 {
+  font-weight: 700;
+  font-size: 30px;
+  width: 70%;
+}
+
+#one-text p {
+  width: 80%;
+  font-weight: 400;
+}
+
+#one-text button {
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-weight: 600;
+}
+
+#one-text button:hover {
+  background-color: hsl(322, 100%, 80%);
+}
+
+#one-image {
+  width: 60%;
+  height: 100%;
+  background: url('illustration-mockups 1.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 50px;
+}
+
+#two {
+  display: flex;
+  width: 80%;
+  height: 250px;
+  margin: auto;
+  margin-top: 100px;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px hsl(208, 11%, 70%);
+}
+
+#two-text {
+  width: 60%;
+}
+
+#two-image {
+  width: 40%;
+  height: 100%;
+  background: url('illustration-grow-together.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#two-text h2 {
+  margin-left: 80px;
+}
+
+#two-text p {
+  margin-left: 80px;
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+  width: 70%;
+}
+
+#three {
+  display: flex;
+  width: 80%;
+  height: 250px;
+  margin: auto;
+  margin-top: 30px;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px hsl(208, 11%, 70%);
+}
+
+#three-text {
+  width: 60%;
+}
+
+#three-image {
+  width: 40%;
+  height: 100%;
+  background: url('illustration-flowing-conversation.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#three-text h2 {
+  margin-left: 80px;
+}
+
+#three-text p {
+  margin-left: 80px;
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+  width: 70%;
+}
+
+#four {
+  display: flex;
+  width: 80%;
+  height: 250px;
+  margin: auto;
+  margin-top: 30px;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px hsl(208, 11%, 70%);
+}
+
+#four-text {
+  width: 60%;
+}
+
+#four-image {
+  width: 40%;
+  height: 100%;
+  background: url('illustration-your-users.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#four-text h2 {
+  margin-left: 80px;
+}
+
+#four-text p {
+  margin-left: 80px;
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+  width: 70%;
+}
+
+#white-rectangle {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 150px;
+  background-color: white;
+  margin: auto;
+  margin-top: 100px;
+  align-items: center;
+  border-radius: 10px;
+  position: relative;
+  top: 70px;
+}
+
+#white-rectangle button {
+  width: 250px;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  font-weight: 600;
+  box-shadow: 0px 5px 10px hsl(208, 11%, 70%);
+}
+
+#white-rectangle button:hover {
+  background-color: hsl(322, 100%, 80%);
+}
+
+
+footer {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: max-content;
+  background-color: hsl(192, 100%, 9%);
+  color: hsl(208, 11%, 55%);
+}
+
+footer p {
+  font-size: 14px;
+}
+
+footer p:hover {
+  text-decoration: underline;
+}
+
+#footer-logo {
+  width: 180px;
+  height: 50px;
+  background: url('logo.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 120px;
+}
+
+#footer-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 90%;
+  margin: auto;
+}
+
+#first {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+#second {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+#third {
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+#icons {
+  width: 300px;
+  display: flex;
+}
+
+#icons div {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+  filter: invert(99%) sepia(24%) saturate(2%) brightness(107%) contrast(101%);
+}
+
+#icons div:hover {
+  filter: invert(53%) sepia(25%) saturate(6038%) hue-rotate(295deg) brightness(101%) contrast(103%);
+}
+
+#facebook {
+  background: url('icon-facebook.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#twitter {
+  background: url('icon-twitter.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#instagram {
+  background: url('icon-instagram.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#location, #phone, #mail {
+  display: flex;
+  align-items: center
+}
+
+#first img {
+  margin-right: 30px;
+  width: 20px;
+  height: 20px;
+}
+
+#copyright {
+  text-align: right;
+  margin-right: 100px;
+}
+
+@media (max-width:1050px) {
+  #footer-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width:700px) {
+  
+  header {
+  background: url('bg-hero-mobile.svg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: hsl(193, 100%, 96%);
+}
+  
+#logo {
+  width: 100px;
+  height: 50px;
+  margin-left: 20px;
+}
+
+header button {
+  width: 100px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+#one {
+  flex-direction: column;
+  text-align: center;
+  background: url('bg-hero-mobile.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: hsl(193, 100%, 96%);
+}
+
+#one-text {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  text-align: center;
+  margin-left: 0;
+  align-items: center;
+}
+
+#one-text h1 {
+  width: 80%;
+  margin-bottom: 0;
+}
+
+#one-text p {
+  width: 80%;
+}
+
+
+#one-image {
+  width: 100%;
+  height: 200px;
+  margin-right: 0px;
+  margin-top: 50px;
+}
+
+#two {
+  flex-direction: column-reverse;
+  height: max-content;
+  text-align: center;
+}
+
+#two-text {
+  width: 100%;
+}
+
+#two-image {
+  width: 100%;
+  height: 200px;
+}
+
+#two-text h2 {
+  margin-left: 0px;
+}
+
+#two-text p {
+  margin-left: 0px;
+  width: 100%;
+}
+
+#three {
+  height: max-content;
+  flex-direction: column;
+  text-align: center;
+}
+
+#three-text {
+  width: 100%;
+}
+
+#three-image {
+  width: 100%;
+  height: 200px;
+}
+
+#three-text h2 {
+  margin-left: 0px;
+}
+
+#three-text p {
+  margin-left: 0px;
+  width: 100%;
+}
+
+#four {
+  height: max-content;
+  flex-direction: column-reverse;
+  text-align: center;
+}
+
+#four-text {
+  width: 60%;
+}
+
+#four-image {
+  width: 100%;
+  height: 200px;
+}
+
+#four-text h2 {
+  margin-left: 0px;
+}
+
+#four-text p {
+  margin-left: 0px;
+  width: 100%;
+}
+
+#white-rectangle {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 270px;
+  height: max-content;
+  padding: 20px;
+}
+
+
+#footer-logo {
+  margin-left: 0px;
+  margin: auto;
+}
+
+footer p {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+#footer-container {
+  width: 90%;
+  margin: auto;
+}
+
+#first {
+  width: 100%;
+}
+
+#second {
+  width: 100%;
+}
+
+#third {
+  width: 100%;
+}
+
+#icons {
+  margin: auto;
+  width: 100%;
+  justify-content: center;
+}
+
+
+#copyright {
+  text-align: center;
+  margin-right: 0px;
+  margin: auto;
+}
+
+
+}
+
