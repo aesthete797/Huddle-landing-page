@@ -22,8 +22,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Frontend mentor](https://www.frontendmentor.io/solutions/responsive-clipboard-landing-page-hero-page-with-flexbox-jgWhLAhx85)
-- Live Site URL: [Vercel](https://clipboard-landing-page-sage-one.vercel.app/)
+- Solution URL: [Frontend mentor](https://www.frontendmentor.io/solutions/responsive-huddle-landing-page-with-alternating-feature-with-flexbox-Ug4g3g9WhZ)
+- Live Site URL: [Vercel](https://huddle-landing-page-ten-zeta.vercel.app/)
 
 ### Built with
 
